@@ -53,15 +53,8 @@ main {
   width: var(--font-size-large);
 }
 
-.list__item--dragged {
-  background-color: var(--color-primary-yellow);
-}
-
-.list__compare-button {
-}
-
-.correct {
-}
-
-.incorrect {
+.list__item-taskFields {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
